@@ -3,17 +3,17 @@ import { Link } from 'react-router-dom';
 function MainNavigation() {
   return (
     <header>
-      <div>React Meetups</div>
+      <div>Meetup Destinations</div>
       <nav>
         <ul>
           <li>
             <Link to='/'>All Meetups</Link>
           </li>
           <li>
-            <Link to='/new-meetups'>New Meetups</Link>
+            <Link to='/my-projects'>My Projects</Link>
           </li>
           <li>
-            <Link to='/favorites'>My favorites</Link>
+            <Link to='/profile'>My Profile</Link>
           </li>
         </ul>
       </nav>
