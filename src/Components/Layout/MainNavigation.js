@@ -17,6 +17,9 @@ function MainNavigation() {
           <li>
             <Link to='/profile'>My Profile</Link>
           </li>
+          <li>
+            <Link to='/new-meetup'>New Meetups</Link>
+          </li>
         </ul>
       </nav>
     </header>
